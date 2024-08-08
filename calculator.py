@@ -9,7 +9,7 @@ while True:
         break
     numbers = input("Please enter the numbers you would like to use separated by a space: ")
     if numbers != "<class 'int>":
-       numbers = input("Please enter a number ")
+       numbers = input("Please enter a number(s) seperated by a space ")
     num_list = numbers.split()
     num_list = [int(num) for num in num_list]
     if function == "add":
